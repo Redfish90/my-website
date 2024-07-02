@@ -1,0 +1,7 @@
+.next
+node_modules
+.npmrc
+.idea
+.DS_Store
+.vscode
+*.swp
