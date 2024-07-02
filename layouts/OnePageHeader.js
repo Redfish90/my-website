@@ -35,6 +35,11 @@ const OnePageHeader = () => {
     setToggle(!toggle);
   };
 
+  const closeMenu = () => {
+      document.querySelector("body").classList.add("loaded");
+      setToggle(false);
+  };
+
   return (
     <header className={toggle ? "active" : ""}>
       <div className="head-top">
@@ -44,22 +49,22 @@ const OnePageHeader = () => {
         <div className="top-menu">
           <ul>
             <li className="">
-              <a href="#section-resume" className="lnk">
+              <a href="#section-resume" className="lnk" onClick={closeMenu}>
                 Resume
               </a>
             </li>
             <li className="">
-              <a href="#section-works" className="lnk">
+              <a href="#section-works" className="lnk" onClick={closeMenu}>
                 Portfolio
               </a>
             </li>
             <li className="">
-              <a href="#section-blog" className="lnk">
+              <a href="#section-blog" className="lnk" onClick={closeMenu}>
                 Blog
               </a>
             </li>
             <li>
-              <a href="#section-contacts" className="btn">
+              <a href="#section-contacts" className="btn" onClick={closeMenu}>
                 Contacts
               </a>
             </li>
