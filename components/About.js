@@ -10,37 +10,38 @@ const About = () => {
         </div>
         <div className="desc">
           <p>
-            Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum
-            vocent mediocritatem an, cule dicta iriure at. Ubique maluisset vel
-            te, his dico vituperata ut. Pro ei phaedrum maluisset. Ex audire
-            suavitate has, ei quodsi tacimates sapientem sed, pri zril ubique
-            ut. Te cule tation munere noluisse. Enim torquatos ne pri, eum
-            mollis salutandi corrumpit et, fugit apeirian duo ad.
+            I am a Software Engineer passionate about creating seamless,
+            user-friendly digital experiences. My journey showcases my commitment
+            to continuous learning and growth. I am skilled in developing advanced
+            solutions, designing intuitive UI components and mentoring junior
+            developers. I excel in dynamic environments, driving innovation and
+            delivering high-quality software with a strong sense of responsibility,
+            attention to detail and a collaborative spirit.
           </p>
           <div className="info-list">
             <ul>
               <li>
-                <strong>Name:</strong> John Doe
+                <strong>Name:</strong> Christoforos Rentifis
               </li>
               <li>
-                <strong>Age:</strong> 22 Years
+                <strong>Age:</strong> 34 Years
               </li>
               <li>
                 <strong>Job:</strong> Web Developer
               </li>
               <li>
-                <strong>Citizenship:</strong> Ukraine
+                <strong>Citizenship:</strong> Greece
               </li>
               <li>
-                <strong>Residence: </strong> Kiev
+                <strong>Residence: </strong> Athens
               </li>
               <li>
-                <strong>E-mail:</strong> johndoe@domain.com
+                <strong>E-mail:</strong> redifischris@gmail.com
               </li>
             </ul>
           </div>
           <div className="bts">
-            <a href="#" className="btn fill" data-text="Download CV">
+            <a href="files/RENTIFIS_CV.pdf" download="Resume Rentifis Christoforos" className="btn fill" data-text="Download CV">
               Download CV
             </a>
           </div>

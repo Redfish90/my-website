@@ -645,6 +645,16 @@ header .head-top .top-menu ul li:hover > .children {
   margin: 0;
 }
 
+.resume-items .resume-item p > ul {
+  list-style-type: circle;
+  list-style-position: inside;
+  margin: 0 0 10px 0;
+}
+
+.resume-items .resume-item p > ul > li {
+    margin: 0 0 5px 0;
+}
+
 /* 6. Skills */
 .skills ul {
   margin: 0;
