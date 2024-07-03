@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import Link from 'next/link'
 
 const OnePageHeader = () => {
   const [toggle, setToggle] = useState(false);
@@ -48,6 +49,11 @@ const OnePageHeader = () => {
         </a>
         <div className="top-menu">
           <ul>
+            <li className={'menu-item active'}>
+              <a href="#" className="lnk" onClick={closeMenu}>
+                Home
+              </a>
+            </li>
             <li className="">
               <a href="#section-resume" className="lnk" onClick={closeMenu}>
                 Resume
