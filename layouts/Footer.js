@@ -15,9 +15,6 @@ const Footer = () => {
           <span className="ion ion-social-instagram-outline" />
         </a>
       </div>
-      <div className="copy">
-        © {new Date().getFullYear()} Glitche. All rights reserved.
-      </div>
       <div className="clr" />
     </footer>
   );
