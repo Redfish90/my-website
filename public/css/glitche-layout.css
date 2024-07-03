@@ -572,8 +572,8 @@ header .head-top .top-menu ul li:hover > .children {
 
 /* 5. Resume */
 @media (max-width: 840px) {
-  .section.resume .cols .col.col-md:first-child {
-    margin-bottom: 120px;
+  .section.resume .cols .col.col-md:first-of-type {
+      margin-bottom: 60px;
   }
 }
 

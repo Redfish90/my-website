@@ -14,17 +14,17 @@ const Hero = ({ mouse }) => {
     <div className="section started" style={{ height: "96vh" }}>
       <div className="centrize full-width">
         <div className="vertical-center">
-          <div class="started-content">
-            <div class="h-title glitch-effect" data-text="أنا جون دو">
+          <div className="started-content">
+            <div className="h-title glitch-effect" data-text="أنا جون دو">
               أنا جون دو
             </div>
-            <span class="typed-subtitle"></span>
+            <span className="typed-subtitle"></span>
           </div>
         </div>
       </div>
       {mouse && (
         <a href="#" className="mouse_btn">
-          <span class="ion ion-mouse"></span>
+          <span className="ion ion-mouse"></span>
         </a>
       )}
     </div>
