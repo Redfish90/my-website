@@ -27,7 +27,7 @@ const page = () => {
         {/*<Services />*/}
         {/*<Clients />*/}
         {/*<RecentWorks />*/}
-        <Blog />
+        {/*<Blog />*/}
         <ContactsInfo />
     </GlitcheLayout>
   );

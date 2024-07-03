@@ -58,11 +58,11 @@ const OnePageHeader = () => {
             {/*    Portfolio*/}
             {/*  </a>*/}
             {/*</li>*/}
-            <li className="">
-              <a href="#section-blog" className="lnk" onClick={closeMenu}>
-                Blog
-              </a>
-            </li>
+            {/*<li className="">*/}
+            {/*  <a href="#section-blog" className="lnk" onClick={closeMenu}>*/}
+            {/*    Blog*/}
+            {/*  </a>*/}
+            {/*</li>*/}
             <li>
               <a href="#section-contacts" className="btn" onClick={closeMenu}>
                 Contacts
