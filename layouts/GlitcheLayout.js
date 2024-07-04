@@ -17,7 +17,7 @@ const GlitcheLayout = ({ children, onepage = false, dark }) => {
           {children}
         </div>
         {/* Footer */}
-        {/*<Footer />*/}
+        <Footer />
         {/* Lines */}
         <div className="line top" />
         <div className="line bottom" />
