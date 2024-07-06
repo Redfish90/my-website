@@ -48,7 +48,7 @@ const Experience = () => {
                         <div className="resume-items">
                             <div className="resume-item">
                                 <div className="date">Oct 2020 - Dec 2021</div>
-                                <div className="name">Junior Software Engineer - Intralot</div>
+                                <div className="name">Software Engineer - Cognity</div>
                                 <p>
                                     At Congnity, I developed the Avis Easy Leasing application, a 100% online car
                                     leasing platform, as
